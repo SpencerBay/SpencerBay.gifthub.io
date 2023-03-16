@@ -18,7 +18,7 @@ body{
 a:focus,a:hover {
     font-style: italic;
     color: orangered;
-    border: 2px blue;
+    border: 3px blue;
     border-style: dotted solid;
 
 }
@@ -67,19 +67,19 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: blue;
+    color: lightgreen;
 }
 
 aside {
     width: 20%;
     float: right;
-    background-color: yellow;
+    background-color: #ffebc6;
     padding-left: 2em;
 }
 
 footer{
     clear: both;
-    border-top: 2px solid grey;
+    border-top: 2px solid maroon;
 }
 
 footer p.copyright {
@@ -92,7 +92,7 @@ p.fixed {
     position: fixed;
     bottom: 35%;
     right: 0;
-    border: 3px solid darkred;
-    background-color: pink;
+    border: 3px solid darkgreen;
+    background-color: lightgreen;
     padding: 1.5em;
 }
