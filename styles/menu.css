@@ -19,10 +19,11 @@ article{
 
 }
 
-artilce ol {
-    list-style-type: upper-roman;
+article ol {
+    
 }
 
 aside Ul {
+    list-style-type: upper-roman;
     list-style-type: square;
 }
