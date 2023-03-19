@@ -33,7 +33,7 @@ body {
 
 article {
     float: left;
-    width: 75;
+    width: 75%;
     column-count: 3;
     column-rule: 4px dotted blue;    
     column-gap: 2em;
