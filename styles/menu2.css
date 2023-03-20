@@ -13,10 +13,7 @@
 #nav_menu ul li a.lastitem { border-right: none; }	
 #nav_menu ul li a.current { color: yellow; }
 
-nav{
-    padding-bottom: 4em;
-    border-bottom: 3px solid blue;
-}
+
 
 
 body {
