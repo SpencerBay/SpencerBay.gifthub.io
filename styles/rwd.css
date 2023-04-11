@@ -86,7 +86,7 @@ html, body {
     transform: rotate(-405deg);
     }
 
-    /*----end of menu*/
+    /*----end of the menu*/
     
     section a {
         text-decoration: none;
@@ -120,7 +120,7 @@ html, body {
         font-size: .8em;
     }
     
-    /*---------------------------------------------------------------*/
+    /*---------------------------------------------------------*/
 
     media (max-width: 700px) {
     .menu-button-container {
