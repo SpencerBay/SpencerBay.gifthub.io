@@ -11,9 +11,11 @@ html, body {
         border-collapse: separate;
         border: 2px solid black;    
     }
+
     table.first th, table.first td {
         border: 2px solid blue;
     }
+
     table.first tr:nth-child(odd) {
         background-color: lightblue;
     }
@@ -62,6 +64,7 @@ html, body {
     @media only screen and (max-width: 425px) {
         th, td {
             display: block;
+            
         }
         thead, td.number {
             display: none;
