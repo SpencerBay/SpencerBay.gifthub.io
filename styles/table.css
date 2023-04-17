@@ -52,11 +52,11 @@ html, body {
         vertical-align: top;    
     }
     table.third thead tr:first-child{     
-        border-top: 2px solid orange;
-        border-bottom: 2px solid orange;
+        border-top: 2px solid orangered;
+        border-bottom: 2px solid orangered;
     }
     table.third thead tr:nth-child(2), table.third tr:last-child {     
-        border-bottom: 2px solid orange;
+        border-bottom: 2px solid orangered;
     }
 
     /*-----------------------------------------------------------*/
