@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Set background color to white */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    background-color: #fff;
+  }
+  
+  /* Style the form */
+  .form-container {
+    display: none;
+    width: 50%;
+    background-color: #fff; /* Set background color to white */
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid #004990; /* Set border color */
+  }
+  
+  /* Set image in top left corner */
+  .form-header {
+    background-image: url('your-image-url-here');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+  }
+  
+  .form-container label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .form-container input[type=text],
+  .form-container input[type=date],
+  .form-container select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  /* Set button color to f56423 */
+  .form-container button[type=submit] {
+    background-color: #f56423;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .form-container button[type=submit]:hover {
+    background-color: #d9550f;
+  }
+  
+  .form-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-container div {
+    text-align: center;
+  }
+  
+  .form-container form {
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: #f56423; /* Set button color to f56423 */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #d9550f;
+  }
+  
